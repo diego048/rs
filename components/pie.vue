@@ -32,7 +32,7 @@
                     <div class="d-flex justify-content-end">
                         <img
                             style="height: 150px"
-                            src="/imag/imagen35-.png"
+                            src="https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen35.png"
                         >
                     </div>
                 </div>
