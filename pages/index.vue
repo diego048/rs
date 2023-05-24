@@ -5,7 +5,7 @@
             <swiper :modules="[SwiperAutoplay]" :loop="true" :autoplay="{delay: 2500}" style="z-index: -1; height: 100%; width: 100%; min-height: 287px; color: black; position:relative" v-scrolls>
                 <swiper-slide v-for="card in cards1" :key="card" style="height: 450px; position: relative">
                         <div  style="position: absolute ;top: 0; width: 100%; height: 100%;background-color:rgba(24, 91, 122, 0.28); z-index: 100"></div>
-                        <img :src="card" style="width:100%; height: 100%; object-fit: cover; filter: brightness(50%); z-index: -1" alt="..." />
+                        <img :src="card.src" :alt="card.alt" style="width:100%; height: 100%; object-fit: cover; filter: brightness(50%); z-index: -1" alt="..." />
                     </swiper-slide>
              </swiper>
              <div class="container" style="position: relative; position: absolute; left: 0; top:30%">
@@ -47,12 +47,12 @@
                         <div class="row">
                             <div class="col">
                                 <div class="image-container" style="height: 150px">
-                                    <img src="/imag/imagen4.png" style="width: 100%" alt="...">
+                                    <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen4.png" style="width: 100%" alt="imagen de corazon, doctor">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="image-container" style="height: 150px">
-                                    <img src="/imag/imagen5.png" style="width: 100%" alt="...">
+                                    <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-800/imagen5.png" style="width: 100%" alt="imagen de doctora">
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="image-container" style="height: 200px">
-                                    <img src="/imag/imagen6.png" style="width: 100%" alt="...">
+                                    <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen6.png" style="width: 100%" alt="mascarilla">
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@
                         <div class="card1" style="position: relative;width: 100%; background-color: #f7f7f7; cursor: pointer; pointer-events:auto"  @click="showDialog(card)">
                                 <div class="overlay"></div>
                                 <div style="height: 200px; width: 100%; overflow: hidden; background: white">
-                                    <img :src="card.src" style="height: 100%; width: 100%; object-fit: contain;">
+                                    <img :src="card.src" style="height: 100%; width: 100%; object-fit: contain;" :alt="card.alt">
                                 </div>
                                 <div class="card-header1 text-justify">
                                     <h5>{{ card.title }}</h5>
@@ -159,7 +159,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-md-6" v-scrolls>
                             <div class="image-container" style="height: 300px">
-                                <img src="/imag/imagen13.jpg" style="height: 300px; width: 100%">
+                                <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-800/imagen13.jpg" style="height: 300px; width: 100%" alt="Capacitación a las licenciadas de la Unidad de Cuidados Intensivos Pediátricos del Hospital “Edgardo Rebagliati Martins”.">
                             </div>
                     </div>
                 </div>
@@ -223,10 +223,10 @@
                                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img  src="/imag/imagen62.png" class="d-block w-100" alt="...">
+                                            <img  src="https://ik.imagekit.io/ui7iolk9r/tr:w-800/imagen62.png" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item">
-                                            <img :src="card.src" class="d-block w-100" alt="...">
+                                            <img :src="card.src" class="d-block w-100" :alt="card.alt">
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -606,7 +606,7 @@
                                 </p>
                             </div>
                         </div>
-                        <img src="/imag/imagen61.png" style="width: 100%">
+                        <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen61.png" style="width: 100%" alt="Cuadros">
                     </div>
                 </div>
             </LazyDibox>
@@ -644,7 +644,9 @@ export default {
         activador: false,
         nombre: "",
         cards1: [
-            "/imag/imagen18.jpg", "/imag/imagen22.jpg", "/imag/imagen23.jpg"
+            { src: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen18.jpg", alt: "Capacitación dirigida a las Licenciadas de la Unidad de Cuidados Intensivos Pediátricos"}, 
+            { src: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen22.jpg", alt: "Capacitación a las Licenciadas del Hospital “Guillermo Almenara Irigoyen"}, 
+            { src: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen23.jpg", alt: "Capacitación en el Hotel Crowne sobre Eficiencia"}
         ],
         cards: [
             {
@@ -653,7 +655,8 @@ export default {
                 info: "Cinta quirúrgica de polietileno de baja densidad, transparente, macroperforada, libre de latex.....", 
                 show1: true,
                 show: false, 
-                src: "/imag/imagen7.png",
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen7.png",
+                alt: "Cinta Quirúrgica de Plástico Macroperforado",
             },
             {
                 id: 2, 
@@ -661,7 +664,8 @@ export default {
                 info: "Cinta quirúrgica de rayón no tejida, microporosa, libre de latex e hipoalergénica......", 
                 show2: true,
                 show: false, 
-                src: "/imag/imagen41.png",
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen41.png",
+                alt: "Cinta Quirúrgica de Papel Microporosa",
             },
             {
                 id: 3, 
@@ -669,7 +673,8 @@ export default {
                 info: "Es una versátil solución para ayudar a prevenir el daño de la piel antes que suceda.", 
                 show3: true,
                 show: false, 
-                src: "/imag/imagen9.png",
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen9.png",
+                alt: "CavilonTM Película Protectora Sin Ardor",
             },
         ],
         items9: [
