@@ -222,7 +222,7 @@
 }
 #background1 {
     background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)),
-      url("/imag/imagen76.jpeg");
+      url("https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen76.jpeg");
     background-position: 50% 40%;
     background-repeat: no-repeat;
     background-size: cover;
