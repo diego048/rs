@@ -176,7 +176,7 @@
                             <img :src="card.ima" style="cursor: pointer;width:100%; height: 100%; object-fit: cover" :alt="card.texto" />
                         </swiper-slide>
                         <swiper-slide>
-                            <img src="/imag/imagen24.jpg" style="width:100%; height: 100%; object-fit: cover" alt="card.texto" />
+                            <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen24.jpg" style="width:100%; height: 100%; object-fit: cover" alt="imsgen" />
                         </swiper-slide>
                         <div class="boton1">
                             <boton />
@@ -261,7 +261,7 @@
   overflow: hidden;
 }
 #background {
-  background: url("/imag/imagen49.png");
+  background: url("https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen49.png");
   background-position: 50% 30%;
   background-repeat: no-repeat;
   background-size: cover;
