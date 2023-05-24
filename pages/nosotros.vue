@@ -23,7 +23,8 @@
                         <div align="center">
                             <img
                                 style="height: 200px"
-                                src="/imag/imagen35.png"
+                                src="https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen35.png"
+                                alt="logo de la imagen"
                             >
                         </div>
                     </div>
@@ -35,6 +36,7 @@
                                 class="d-none d-sm-flex"
                                 style="height: 180px"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/3M_wordmark.svg/1200px-3M_wordmark.svg.png"
+                                alt="imagen de 3m"
                             >
                         </div>
                         <br />
@@ -51,6 +53,7 @@
                             class="d-flex d-sm-none"
                             height="180px"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/3M_wordmark.svg/1200px-3M_wordmark.svg.png"
+                            alt="imagen de 3m"
                         >
                     </div>
                 </div>
@@ -78,6 +81,7 @@
                             <img
                                 style=" height: 100%;"
                                 src="https://www.emprendedorinteligente.com/wp-content/uploads/2021/06/Que-es-la-mision-de-una-empresa.jpg"
+                                alt="imagen de mision"
                             >
                         </div>
                 </div>
@@ -94,6 +98,7 @@
                             <img
                                 style="height:350px; width: 100%"
                                 src="https://aprendihoy.com/wp-content/uploads/2021/08/imagen-destacada-mision-y-vision-930x620.png"
+                                alt="imagen de vision"
                             >
                         </div>
                     </div>
@@ -113,6 +118,7 @@
                             <img
                                 style="height:350px; width: 100%"
                                 src="https://aprendihoy.com/wp-content/uploads/2021/08/imagen-destacada-mision-y-vision-930x620.png"
+                                alt="imagen de vision"
                             >
                         </div>
                     </div>
