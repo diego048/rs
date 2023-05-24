@@ -1,6 +1,7 @@
 <template>
   <div>
     <NuxtLayout style="overflow-x:hidden">
+      <NuxtLoadingIndicator/>
       <NuxtPage />
     </NuxtLayout>
   </div>
