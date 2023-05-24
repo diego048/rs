@@ -229,3 +229,54 @@
     height: 400px
   }
 </style>
+<script setup>
+useHead({
+          title: "Nosotros",
+          meta: [
+          {
+            name: "robots",
+            content: "index, follow"
+          },
+          {
+            name: "description",
+            content: "nuestra misión es ofrecer a nuestros clientes del sector salud tanto público como privado productos de alta calidad, tecnología y seguridad",
+          },
+          {
+            property: "site_name",
+            content: "RSpharma"
+          },
+          {
+            property: "og:title",
+            content: "Nosotros"
+          },
+          {
+            property: "og:description",
+            content: "nuestra misión es ofrecer a nuestros clientes del sector salud tanto público como privado productos de alta calidad, tecnología y seguridad"
+          },
+          {
+            property: "og:image",
+            content: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen37.png",
+          },
+          {
+            property: "og:url",
+            content: "/nosotros"
+          },
+          {
+            name: "twitter:card",
+            content: "summary_large_image"
+          },
+          {
+            name: "twitter:tittle",
+            content: "nosotros"
+          },
+          {
+            name: "twitter:description",
+            content: "nuestra misión es ofrecer a nuestros clientes del sector salud tanto público como privado productos de alta calidad, tecnología y seguridad"
+          },
+          {
+            name: "twitter:image",
+            content: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen37.png"
+          },
+        ],
+        })
+</script>
