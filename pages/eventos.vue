@@ -65,7 +65,7 @@
                       :slides-per-view="2" 
                       :spaceBetween="20" 
                       :loop="true" 
-                      style="height: 100%; width: 100%; color: black"
+                      style="height: 100%; color: black"
                       :breakpoints="{
                         '640': {
                             slidesPerView: 2,
@@ -140,7 +140,7 @@
                       :slides-per-view="2" 
                       :spaceBetween="20" 
                       :loop="true" 
-                      style="height: 100%; width: 100%; color: black"
+                      style="height: 100%; color: black"
                       :breakpoints="{
                         '640': {
                             slidesPerView: 2,
