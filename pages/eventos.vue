@@ -58,6 +58,7 @@
         <div>
             <div class="container" v-scrolls>
                 <div class="row">
+                    <div class="col>
                     <swiper 
                       :autoplay="{delay: 12000}"
                       :modules="[SwiperAutoplay]" 
@@ -87,6 +88,7 @@
                             <boton />
                         </div>
                     </swiper>
+                    </div>
                 </div>
             </div>
         </div>
@@ -131,6 +133,7 @@
         <div>
             <div class="container" v-scrolls>
                 <div class="row">
+                    <div class="col">
                     <swiper 
                       :autoplay="{delay: 12000}"
                       :modules="[SwiperAutoplay]" 
@@ -163,6 +166,7 @@
                             <boton />
                         </div>
                     </swiper>
+                    </div>
                 </div>
             </div>
         </div>
