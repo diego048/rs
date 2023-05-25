@@ -1403,8 +1403,8 @@
                 <br />
             </LazyDibox>
         </div>
-        <LazyDibox scrollable v-show="model1" @close="hideDialog1()">
-            <div style="position: fixed; background-color: white">
+        <LazyDibox scrollable v-show="model1" @close="hideDialog1()" style="position: relative">
+            <div style="position: fixed; background-color: white; width: 100%: top: 0;">
             <div class="d-flex justify-space-between">
                 <div class="d-flex justify-end">
                     <h3>LISTA DE PRODUCTOS</h3>
