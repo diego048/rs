@@ -58,7 +58,7 @@
         <div>
             <div class="container" v-scrolls>
                 <div class="row">
-                    <div class="col>
+                    <div class="col">
                     <swiper 
                       :autoplay="{delay: 12000}"
                       :modules="[SwiperAutoplay]" 
