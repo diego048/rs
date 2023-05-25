@@ -61,10 +61,10 @@
                     <swiper 
                       :autoplay="{delay: 12000}"
                       :modules="[SwiperAutoplay]" 
-                      :slides-per-view="1" 
-                      :spaceBetween="30" 
+                      :slides-per-view="2" 
+                      :spaceBetween="20" 
                       :loop="true" 
-                      style="height: 100%; width: 100%; min-height: 287px; color: black"
+                      style="height: 100%; width: 100%; color: black"
                       :breakpoints="{
                         '640': {
                             slidesPerView: 2,
@@ -134,10 +134,10 @@
                     <swiper 
                       :autoplay="{delay: 12000}"
                       :modules="[SwiperAutoplay]" 
-                      :slides-per-view="1" 
-                      :spaceBetween="30" 
+                      :slides-per-view="2" 
+                      :spaceBetween="20" 
                       :loop="true" 
-                      style="height: 100%; width: 100%; min-height: 287px; color: black"
+                      style="height: 100%; width: 100%; color: black"
                       :breakpoints="{
                         '640': {
                             slidesPerView: 2,
