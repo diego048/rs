@@ -26,31 +26,31 @@
           </div>
         </div>
       </nav>
-      <div class="offcanvas offcanvas-start offcanvas-slide" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div style="width: 50vw; max-width: 360px" class="offcanvas offcanvas-start offcanvas-slide" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasExampleLabel">RSpharma</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
           <div>
-            <NuxtLink to="/nosotros" class="link">
-            <button type="button" class="btn btn-light nav-item" style="width: 100%">
+            <NuxtLink to="/" class="link">
+            <button type="button" class="btn btn-light nav-item" style="width: 100%" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     HOME
                   </button>
             </NuxtLink>
                   <br />
-                <NuxtLink to="/" class="link">
-                  <button type="button" class="btn btn-light nav-item" style="width: 100%">
+                <NuxtLink to="/nosotros" class="link">
+                  <button type="button" class="btn btn-light nav-item" style="width: 100%" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     NOSOTROS
                   </button>
                 </NuxtLink>
                 <NuxtLink to="/productos" class="link">
-                  <button type="button" class="btn btn-light nav-item" style="width: 100%">
+                  <button type="button" class="btn btn-light nav-item" style="width: 100%" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     PRODUCTOS
                   </button>
               </NuxtLink >
               <NuxtLink to="/eventos" class="link">
-                <button type="button" class="btn btn-light nav-item" style="width: 100%">
+                <button type="button" class="btn btn-light nav-item" style="width: 100%" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                   EVENTOS
                   </button>
               </NuxtLink>
