@@ -1404,7 +1404,7 @@
             </LazyDibox>
         </div>
         <LazyDibox scrollable v-show="model1" @close="hideDialog1()">
-            <div style="position: fixed; background-color: white; width: 100%: top: 0;">
+            <nav class="navbar navbar-expand-lg bg-white shadow fixed-top">
             <div class="d-flex justify-space-between">
                 <div class="d-flex justify-end">
                     <h3>LISTA DE PRODUCTOS</h3>
@@ -1419,9 +1419,8 @@
                         <h1>X</h1>
                     </button>
                 </div>
-                <div class="divider1"></div>
             </div>
-            </div>
+            </nav>
             <div class="text-pre-wrap">
                 <div class="row">
                     <div class="col-12">
