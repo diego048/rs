@@ -21,7 +21,7 @@
         <div>
             <div class="container">
                 <div class="row" v-scrolls>
-                    <div class="col-12 col-sm-6 col-md-6 d-none d-sm-flex">
+                    <div class="col-12 col-sm-6 col-md-6">
                         <div style="height:400px; width: 100%">
                             <div class="card1" style="height:400px; width: 100%">
                                 <swiper :modules="[SwiperAutoplay]" :autoplay="{delay: 5000}"  :loop="true" style="height: 100%; width: 100%; min-height: 287px; color: black">
@@ -50,25 +50,6 @@
                             <br />
                             <br />
                         </p>
-                    </div>
-                    <div class="d-flex d-sm-none col-12 col-sm-6 col-md-6">
-                        <div style="height:400px; width: 100%">
-                            <div class="card1" style="height:400px; width: 100%">
-                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                        <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen30.jpg" class="d-block w-100" alt="Sala de Operaciones del Instituto Nacional de Enfermedades Neoplásicas">
-                                        </div>
-                                        <div class="carousel-item">
-                                        <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen31.jpg" class="d-block w-100" alt="Sala de Operaciones del Instituto Nacional de Enfermedades Neoplásicas">
-                                        </div>
-                                        <div class="carousel-item">
-                                        <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen32.jpg" class="d-block w-100" alt="Sala de Operaciones del Instituto Nacional de Enfermedades Neoplásicas">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
