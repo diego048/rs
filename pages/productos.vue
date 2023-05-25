@@ -1404,6 +1404,7 @@
             </LazyDibox>
         </div>
         <LazyDibox scrollable v-show="model1" @close="hideDialog1()">
+        <div style="position: relative">
             <nav class="navbar navbar-expand-lg bg-white shadow fixed-top">
             <div class="d-flex justify-space-between">
                 <div class="d-flex justify-end">
@@ -1421,6 +1422,7 @@
                 </div>
             </div>
             </nav>
+            </div>
             <div class="text-pre-wrap">
                 <div class="row">
                     <div class="col-12">
