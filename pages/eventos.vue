@@ -293,6 +293,57 @@
 }
 
 </style>
+<script setup>
+useHead({
+          title: "Eventos",
+          meta: [
+          {
+            name: "robots",
+            content: "index, follow"
+          },
+          {
+            name: "description",
+            content: "Eventos y Capacitaciones en el manejo de los equipos",
+          },
+          {
+            property: "site_name",
+            content: "RSpharma"
+          },
+          {
+            property: "og:title",
+            content: "Nosotros"
+          },
+          {
+            property: "og:description",
+            content: "Eventos y Capacitaciones en el manejo de los equipos"
+          },
+          {
+            property: "og:image",
+            content: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen37.png",
+          },
+          {
+            property: "og:url",
+            content: "/eventos"
+          },
+          {
+            name: "twitter:card",
+            content: "summary_large_image"
+          },
+          {
+            name: "twitter:tittle",
+            content: "eventos"
+          },
+          {
+            name: "twitter:description",
+            content: "Eventos y Capacitaciones en el manejo de los equipos"
+          },
+          {
+            name: "twitter:image",
+            content: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen37.png"
+          },
+        ],
+        })
+</script>
 <script>
 export default {
     data() {
