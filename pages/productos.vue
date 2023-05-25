@@ -36,7 +36,7 @@
                     <div class="card1" style="position:relative;width: 100%; background-color: #f7f7f7; cursor: pointer; pointer-events:auto"  @click="showDialog(card)">
                         <div class="overlay"></div>
                         <div style="height: 200px; width: 100%; overflow: hidden; background: white">
-                            <img :src="card.src" style="height: 100%; width: 100%; object-fit: contain;">
+                            <img :src="card.src" style="height: 100%; width: 100%; object-fit: contain;" :alt="card.title">
                         </div>
                         <div class="card-header1 text-justify">
                             <h5>{{ card.title }}</h5>
@@ -82,7 +82,7 @@
                     <div class="card1" style="position: relative;width: 100%; background-color: #f7f7f7; cursor: pointer; pointer-events:auto"  @click="showDialog(card)">
                         <div class="overlay"></div>
                         <div style="height: 200px; width: 100%; overflow: hidden; background: white">
-                            <img :src="card.src" style="height: 100%; width: 100%; object-fit: contain;">
+                            <img :src="card.src" style="height: 100%; width: 100%; object-fit: contain;" :alt="card.title">
                         </div>
                         <div class="card-header1 text-justify">
                             <h5>{{ card.title }}</h5>
@@ -118,13 +118,13 @@
                     <div v-if="card.show1">
                         <div class="row">
                             <div class="col-12 col-sm-6 col-md-6">
-                                <img src="/imag/imagen63.png" style="width: 100%">
+                                <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen63.png" style="width: 100%">
                             </div>
                             <div class="col-12 col-sm-6 col-md-6">
-                                <img src="/imag/imagen64.png" style="width: 100%">
+                                <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen64.png" style="width: 100%">
                             </div>
                             <div class="col-12">
-                                <img src="/imag/imagen65.png" style="width: 100%">
+                                <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen65.png" style="width: 100%">
                             </div>
                         </div>
                         <div class="row">
@@ -142,10 +142,10 @@
                                 </p>
                             </div>
                             <div class="col-6 col-sm-6 col-md-6">
-                                <img src="/imag/imagen66.png" style="width: 100%">
+                                <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen66.png" style="width: 100%">
                             </div>
                             <div class="col-12">
-                                <img src="/imag/imagen67.png" style="width: 100%">
+                                <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen67.png" style="width: 100%">
                             </div>
                         </div>
                         <div class="row">
@@ -166,10 +166,10 @@
                                 </p>
                             </div>
                             <div class="col-12 col-sm-6 col-md-6 align-self-center">
-                                <img src="/imag/imagen68.png" style="width: 100%">
+                                <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen68.png" style="width: 100%">
                             </div>
                             <div class="col-12 col-sm-6 col-md-6">
-                                <img src="/imag/imagen69.png" style="width: 100%">
+                                <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen69.png" style="width: 100%">
                             </div>
                         </div>
                     </div>
@@ -311,7 +311,7 @@
                                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                            <img src="/imag/imagen62.png" class="d-block w-100" alt="...">
+                                            <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen62.png" class="d-block w-100" alt="...">
                                             </div>
                                             <div class="carousel-item">
                                             <img :src="card.src" class="d-block w-100" alt="...">
@@ -683,7 +683,7 @@
                                 </p>
                         </div>
                         </div>
-                        <img src="/imag/imagen61.png" style="width: 100%">
+                        <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen61.png" style="width: 100%">
                     </div>
                     <div v-if="card.show6">
                         <div class="row">
@@ -713,22 +713,22 @@
                                             <h2>Mantas bajo paciente</h2>
                                             <div class="row">
                                                 <div class="col">
-                                                    <img src="/imag/imagen52.png" style="width: 100%">
+                                                    <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen52.png" style="width: 100%">
                                                 </div>
                                                 <div class="col">
-                                                    <img src="/imag/imagen53.png" style="width: 100%">
+                                                    <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen53.png" style="width: 100%">
                                                 </div>
                                                 <div class="col">
-                                                    <img src="/imag/imagen54.png" style="width: 100%">
+                                                    <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen54.png" style="width: 100%">
                                                 </div>
                                             </div>
                                             <h2>Mantas intraoperatorias</h2>
                                             <div class="row">
                                                 <div class="col">
-                                                    <img src="/imag/imagen55.png" style="width: 100%">
+                                                    <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen55.png" style="width: 100%">
                                                 </div>
                                                 <div class="col">
-                                                    <img src="/imag/imagen56.png" style="width: 100%">
+                                                    <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen56.png" style="width: 100%">
                                                 </div>
                                             </div>
                                             <h2>Mantas para postoperatorio</h2>
@@ -752,13 +752,13 @@
                                 <br />
                                 <div class="row">
                                     <div class="col-6">
-                                        <img src="/imag/imagen58.png" style="width: 100%">
+                                        <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen58.png" style="width: 100%">
                                     </div>
                                     <div class="col-6">
-                                        <img src="/imag/imagen59.png" style="width: 100%">
+                                        <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen59.png" style="width: 100%">
                                     </div>
                                     <div class="col-6 col-sm-12 col-md-12">
-                                        <img src="/imag/imagen60.png" style="width: 100%">
+                                        <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen60.png" style="width: 100%">
                                     </div>
                                     <div class="col-6 col-sm-12 col-md-12">
                                         <img :src="card.src" style="width: 100%">
@@ -941,13 +941,13 @@
                                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                        <img src="/imag/imagen50.png" class="d-block w-100" alt="...">
+                                        <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen50.png" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item">
                                         <img :src="card.src" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item">
-                                        <img src="/imag/imagen51.png" class="d-block w-100" alt="...">
+                                        <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen51.png" class="d-block w-100" alt="...">
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -1218,7 +1218,7 @@
                                 </p>
                             </div>
                             <div class="col" align="center">
-                                <img src="/imag/imagen80.jpg">
+                                <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen80.jpg">
                             </div>
                         </div>
                     </div>
@@ -1317,7 +1317,7 @@
                                     determinar el Cartucho de Gas de OE Steri-Gas™ de 3M™ adecuado para cada tipo
                                     de Esterilizador Steri-Vac™ de 3M™
                                 </p>
-                                <img src="/imag/imagen81.jpg" style="width: 100%">
+                                <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen81.jpg" style="width: 100%">
                                 <h3>Status Regulatorio </h3>
                                 <p>
                                     Siempre consulte los requerimientos regulatorios nacional, regional y local,
@@ -1367,7 +1367,7 @@
                                     Volumen interno de la cámara del respectivo esterilizador
                                 </p>
                                 <br />
-                                <img src="/imag/imagen82.jpg" style="width: 100%">
+                                <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen82.jpg" style="width: 100%">
                             </div>
                         </div>
                         <div class="row">
@@ -1387,7 +1387,7 @@
                                     Gas OE Steri-Gas™ de 3M™ están certificados en sus pesos netos, según se indica en la
                                     Tabla 3.
                                 </p>
-                                <img src="/imag/imagen83.jpg" style="width: 100%">
+                                <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen83.jpg" style="width: 100%">
                             </div>
                         </div>
                     </div>
@@ -1527,6 +1527,58 @@
         </LazyDibox>
     </div>
 </template>
+<script setup>
+useHead({
+          title: "Productos",
+          meta: [
+          {
+            name: "robots",
+            content: "index, follow"
+          },
+          {
+            name: "description",
+            content: "ponemos a su total disposición nuestra mercancía de la más alta calidad",
+          },
+          {
+            property: "site_name",
+            content: "RSpharma"
+          },
+          {
+            property: "og:title",
+            content: "Productos"
+          },
+          {
+            property: "og:description",
+            content: "ponemos a su total disposición nuestra mercancía de la más alta calidad"
+          },
+          {
+            property: "og:image",
+            content: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen37.png",
+          },
+          {
+            property: "og:url",
+            content: "/productos"
+          },
+          {
+            name: "twitter:card",
+            content: "summary_large_image"
+          },
+          {
+            name: "twitter:tittle",
+            content: "Productos"
+          },
+          {
+            name: "twitter:description",
+            content: "ponemos a su total disposición nuestra mercancía de la más alta calidad"
+          },
+          {
+            name: "twitter:image",
+            content: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen37.png"
+          },
+        ],
+        })
+
+</script>
 <script>
 export default {
     unmounted(){
@@ -1731,7 +1783,7 @@ export default {
                 info: "El único apósito transparente que se ha comprobado que reduce CRBSI", 
                 show1: true,
                 show: false, 
-                src: "/imag/imagen38.png", 
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen38.png", 
             },
             {
                 id: 2, 
@@ -1741,7 +1793,7 @@ export default {
                 info: "Cinta quirúrgica tipo seda de tafetán tejido, libre de latex e hipoalergénica", 
                 show: false, 
                 show2: true,
-                src: "/imag/imagen39.png",
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen39.png",
             },
             {
                 id: 3, 
@@ -1751,7 +1803,7 @@ export default {
                 info: "Cinta quirúrgica de polietileno de baja densidad, transparente, macroperforada", 
                 show: false,
                 show3: true,
-                src: "/imag/imagen40.png",
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen40.png",
             },
             {
                 id: 4, 
@@ -1761,7 +1813,7 @@ export default {
                 info: "Cinta quirúrgica de rayón no tejida, microporosa, libre de latex e hipoalergénica", 
                 show: false, 
                 show4: true,
-                src: "/imag/imagen41.png" 
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen41.png" 
             },
             {
                 id: 5, 
@@ -1771,7 +1823,7 @@ export default {
                 info: "Es una versátil solución para ayudar a prevenir el daño de la piel antes que suceda", 
                 show: false, 
                 show5: true,
-                src: "/imag/imagen42.png"
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen42.png"
             },
             {
                 id: 6, 
@@ -1781,7 +1833,7 @@ export default {
                 info: "Los pacientes anestesiados no pueden regular su temperatura", 
                 show: false, 
                 show6: true,
-                src: "/imag/imagen43.png", 
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen43.png", 
             },
             {
                 id: 7, 
@@ -1791,7 +1843,7 @@ export default {
                 info: "n95 con calificación aprobada por NIOSH", 
                 show: false, 
                 show7: true,
-                src: "/imag/imagen77.png"
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen77.png"
             },
             {
                 id: 8, 
@@ -1801,7 +1853,7 @@ export default {
                 info: "Esto ha sido diseñado especialmente para proteger contra material particular", 
                 show: false,
                 show8: true,
-                src: "/imag/imagen75.png",
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen75.png",
             },
             {
                 id: 9, 
@@ -1811,7 +1863,7 @@ export default {
                 info: "Vendaje con ungüento no medicado, estéril", 
                 show: false, 
                 show9: true,
-                src: "/imag/imagen78.png"
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen78.png"
             },
         ],
         cards1: [
@@ -1823,7 +1875,7 @@ export default {
                 info: "En diferentes tamaños", 
                 show: false, 
                 show1: true,
-                src: "/imag/imagen47.png",
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen47.png",
             },
             {
                 id: 2, 
@@ -1833,7 +1885,7 @@ export default {
                 info: "En diferentes tamaños", 
                 show: false, 
                 show2: true,
-                src: "/imag/imagen48.png",
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen48.png",
             },
             {
                 id: 3, 
@@ -1843,7 +1895,7 @@ export default {
                 info: "más info", 
                 show: false, 
                 show3: true,
-                src: "/imag/imagen79.png",
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen79.png",
             },
             {
                 id: 4, 
@@ -1853,7 +1905,7 @@ export default {
                 info: "más info", 
                 show: false, 
                 show4: true,
-                src: "/imag/imagen58.png",
+                src: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen58.png",
             },
         ],
         cards2: [
@@ -1926,7 +1978,7 @@ export default {
   background-color: #000;
 }
 #background {
-  background: url("/imag/imagen36.png");
+  background: url("https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen36.png");
   background-position: 50% 65%;
   background-repeat: no-repeat;
   background-size: cover;
