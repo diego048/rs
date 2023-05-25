@@ -1404,8 +1404,8 @@
             </LazyDibox>
         </div>
         <LazyDibox scrollable v-show="model1" @close="hideDialog1()">
-            <div>
-            <div class="d-flex justify-space-between" style="position: fixed">
+            <div style="relative">
+            <div class="d-flex justify-space-between" style="position: fixed; background-color: white">
                 <div class="d-flex justify-end">
                     <h3>LISTA DE PRODUCTOS</h3>
                 </div>
@@ -1419,13 +1419,14 @@
                         <h1>X</h1>
                     </button>
                 </div>
+                <div class="divider1"></div>
             </div>
-            <div style="height: 100%"></div>
-            <div class="divider1"></div>
             </div>
             <div class="text-pre-wrap">
                 <div class="row">
                     <div class="col-12">
+                        <br />
+                        <br />
                         <p style="color: #083545">
                                             ESPARADRAPO HIPOALERGÉNICO DE TELA 2.5 cm X 9.1 m - CAJA X 12 ROLLOS.
                                             <br />
