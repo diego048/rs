@@ -732,7 +732,7 @@
                                                 </div>
                                             </div>
                                             <h2>Mantas para postoperatorio</h2>
-                                            <img src="/imag/imagen57.png" style="width: 100%">
+                                            <img src="https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen57.png" style="width: 100%">
                             </div>
                             <div class="col-12 col-sm-6 col-md-6">
                                 <h3>
