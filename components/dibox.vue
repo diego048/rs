@@ -29,7 +29,7 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     max-width: 90%;
     max-height: 90%;
-    overflow-y: auto;
+    overflow-y: hidden;
   }
   .fade-enter-active,
 .fade-leave-active {
