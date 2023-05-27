@@ -2,13 +2,15 @@
     <div>
         <br />
         <div style="position: relative">
-            <swiper :modules="[SwiperAutoplay]" :loop="true" :autoplay="{delay: 2500}" style="z-index: -1; height: 100%; width: 100%; min-height: 287px; color: black; position:relative" v-scrolls>
+            <swiper :modules="[SwiperAutoplay]" :loop="true" :autoplay="{delay: 2500}" style="z-index: -1; height: 100%; width: 100%; min-height: 287px; color: black; position:absolute" v-scrolls>
                 <swiper-slide v-for="card in cards1" :key="card" style="height: 450px; position: relative">
                         <div  style="position: absolute ;top: 0; width: 100%; height: 100%;background-color:rgba(24, 91, 122, 0.28); z-index: 100"></div>
                         <img :src="card.src" :alt="card.alt" style="width:100%; height: 100%; object-fit: cover; filter: brightness(50%); z-index: -1" alt="..." />
                     </swiper-slide>
              </swiper>
-             <div class="container" style="position: relative; position: absolute; left: 0; top:30%">
+             <div class="container">
+                    <br />
+                    <br />
                     <div class="row">
                         <div class="col">
                             <div class="d-none d-sm-block text-start text-justify" style="width: 50%; left: 0; top:30%; margin-left: 70px; z-index: 1000; color: white">
@@ -37,6 +39,8 @@
                     </button>
                 </div>
                 </div>
+                <br />
+                <br />
             </div>
         <br />
         <div style="position: relative">
