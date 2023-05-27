@@ -89,7 +89,7 @@
             <div id="circle2"></div>
             <br />
             <div class="container">
-                <h2 align="center" style="color: #1A2A33">
+                <h2 align="center" style="color: #1A2A33; z-index: 9999">
                     PRODUCTOS
                 </h2>
                 <p align="center">
@@ -121,7 +121,7 @@
                 </div>
                 <br />
                 <div align="center">
-                    <NuxtLink to="/productos" class="link">
+                    <NuxtLink to="/productos" class="link" style="z-index: 9999">
                     <button type="button" class="btn btn-primary boton" style="height:50px">
                         NUESTROS PRODUCTOS
                     </button>
