@@ -201,22 +201,21 @@
         <div v-for="card in cards" :key="card.id">
             <LazyDibox v-show="card.show" @close="hideDialog(card)">
                 <div class="d-flex justify-content-between">
-                        <div class="d-flex justify-end card-header1">
-                            {{ card.title }}
-                        </div>
-                        <div class="d-flex justify-start">
-                            <button 
-                                type="button"
-                                class="btn btn-white"
-                                style="color: rgb(203, 50, 52)"
-                                @click="hideDialog(card)"
-                            >
-                                <h1>X</h1>
-                            </button>
-                        </div>
-                </div>
-                <div class="divider1"></div>
-                <div align="justify" class="text-pre-wrap">
+                    <div>
+                        <h3>{{ card.title }}</h3>
+                    </div>
+                    <div class="">
+                        <button
+                        type="button"
+                        class="btn btn-danger"
+                        @click="hideDialog(card)"
+                        >
+                        <h1>X</h1>
+                        </button>
+                    </div>
+                  </div>
+                  <hr class="solid" />
+                <div align="justify" class="text-pre-wrap" style="overflow-y: scroll; height: 60vh; width: 100%; overflow-x: hidden;">
                     <div v-show="card.show1">
                         <div class="row">
                             <div class="col-12 col-sm-6 col-md-6">
