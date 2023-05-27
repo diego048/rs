@@ -92,7 +92,7 @@
                 <h2 align="center" style="color: #1A2A33; z-index: 9999">
                     PRODUCTOS
                 </h2>
-                <p align="center">
+                <p align="center" style="z-index: 9999">
                     Estos son algunos productos que nuestra empresa esta dispuesta a brindarle con la 
                     mejor calidad de servicio.
                 </p>
