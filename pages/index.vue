@@ -821,7 +821,7 @@ export default {
     position: absolute;
     top: 0;
     left: -150px;
-    
+    z-index:-1;
 }
 #circle2 {
     background: rgba(173, 216, 230, 0.5);
@@ -831,7 +831,7 @@ export default {
     position: absolute;
     bottom: 0;
     right: -150px;
-    
+    z-index:-1;
 }
 #circle3 {
     border-radius: 50%;
