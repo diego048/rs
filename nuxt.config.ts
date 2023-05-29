@@ -11,12 +11,7 @@ export default defineNuxtConfig({
               { name: 'description', content: 'Somos una empresa dedicada a la comercialización y distribución de material médico, dispositivos médicos y productos farmacéuticos oncológicos de procedencia nacional y extranjera' }
             ],
             link: [
-            {
-              href:"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css",
-              rel:"stylesheet", 
-              integrity:"sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65",
-              crossorigin:"anonymous"
-            },
+
           ],
           script: [
             {
