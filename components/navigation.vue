@@ -3,7 +3,7 @@
       <nav class="navbar navbar-expand-lg bg-light shadow fixed-top">
         <div class="container-fluid">
           <div>
-            <img class="mx-2" src="https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen37.png" alt="logo de la empresa" style="width:180px">
+            <img class="mx-2" src="https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen37.png" alt="logo de la empresa" style="width:180px; height: 100%; object-fit: contain">
           </div>
           <div class="element">
               <nuxtLink to="/" class="link">
