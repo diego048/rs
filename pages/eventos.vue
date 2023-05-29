@@ -358,33 +358,33 @@ export default {
             },
             activador: false,
             cards: [
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen10.jpg", show: false, texto: "Capacitación a Licenciadas del Hospital “Alberto Sabogal Sologuren” sobre Mantenimiento del Acceso Vascular."}, 
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen11.jpg", show: false, texto: "Capacitación a las Licenciadas del Hospital “Guillermo Almenara Irigoyen” sobre Mantenimiento del Acceso Vascular a personal de enfermería."},
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen12.jpg", show: false, texto: "Capacitación a las Licenciadas del Hospital “Guillermo Almenara Irigoyen” sobre Mantenimiento del Acceso Vascular a personal de enfermería."}, 
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen13.jpg", show: false, texto: "Capacitación a las licenciadas de la Unidad de Cuidados Intensivos Pediátricos del Hospital “Edgardo Rebagliati Martins”. "}, 
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen14.jpg", show: false, texto: "Capacitación a las licenciadas de la Unidad de Cuidados Intensivos Pediátricos del Hospital “Edgardo Rebagliati Martins”. "}, 
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen15.jpg", show: false, texto: "Capacitación a las Licenciadas de la Unidad de Cuidados Intensivos Neonatología del Hospital “Guillermo Almenara Irigoyen” - Manejo de Luminómetro."}, 
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen16.jpg", show: false, texto: "Capacitación dirigida a las Licenciadas del Servicio Cirugía Pediátrica del Hospital “Edgardo Rebagliati Martins” - Capacitación en el manejo de los equipos y mantas Bair Hugger."}, 
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen17.jpg", show: false, texto: "Capacitación dirigida a las Licenciadas de la Unidad de Cuidados Intensivos Pediátricos del Hospital “Edgardo Rebagliati Martins” sobre Mantenimiento del Acceso Vascular."}
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen10.jpg", show: false, texto: "Capacitación a Licenciadas del Hospital “Alberto Sabogal Sologuren” sobre Mantenimiento del Acceso Vascular."}, 
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen11.jpg", show: false, texto: "Capacitación a las Licenciadas del Hospital “Guillermo Almenara Irigoyen” sobre Mantenimiento del Acceso Vascular a personal de enfermería."},
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen12.jpg", show: false, texto: "Capacitación a las Licenciadas del Hospital “Guillermo Almenara Irigoyen” sobre Mantenimiento del Acceso Vascular a personal de enfermería."}, 
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen13.jpg", show: false, texto: "Capacitación a las licenciadas de la Unidad de Cuidados Intensivos Pediátricos del Hospital “Edgardo Rebagliati Martins”. "}, 
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen14.jpg", show: false, texto: "Capacitación a las licenciadas de la Unidad de Cuidados Intensivos Pediátricos del Hospital “Edgardo Rebagliati Martins”. "}, 
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen15.jpg", show: false, texto: "Capacitación a las Licenciadas de la Unidad de Cuidados Intensivos Neonatología del Hospital “Guillermo Almenara Irigoyen” - Manejo de Luminómetro."}, 
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen16.jpg", show: false, texto: "Capacitación dirigida a las Licenciadas del Servicio Cirugía Pediátrica del Hospital “Edgardo Rebagliati Martins” - Capacitación en el manejo de los equipos y mantas Bair Hugger."}, 
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen17.jpg", show: false, texto: "Capacitación dirigida a las Licenciadas de la Unidad de Cuidados Intensivos Pediátricos del Hospital “Edgardo Rebagliati Martins” sobre Mantenimiento del Acceso Vascular."}
             ],
             cards1: [
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen18.jpg", show: false, texto: "Capacitación dirigida a las Licenciadas de la Unidad de Cuidados Intensivos Pediátricos del Hospital “Edgardo Rebagliati Martins” sobre Mantenimiento del Acceso Vascular."}, 
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen19.jpg", show: false, texto: "Capacitación dirigida a las Licenciadas de la Unidad de Cuidados Intensivos Pediátricos del Hospital “Edgardo Rebagliati Martins” sobre Mantenimiento del Acceso Vascular."}, 
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen20.jpg", show: false, texto: "Capacitación a las Licenciadas del Hospital “Guillermo Almenara Irigoyen” sobre Mantenimiento del Acceso Vascular."}, 
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen21.jpg", show: false, texto: "Capacitación a las Licenciadas del Hospital “Guillermo Almenara Irigoyen” sobre Mantenimiento del Acceso Vascular."}, 
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen22.jpg", show: false, texto: "Capacitación a las Licenciadas del Hospital “Guillermo Almenara Irigoyen” sobre Mantenimiento del Acceso Vascular."}, 
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen23.jpg", show: false, texto: "Evento - Capacitación en el Hotel Crowne sobre Eficiencia y calidad en la atención hospitalaria y claves para el éxito - Dirigido a las enfermeras del Hosp. “Edgardo Rebagliati Martins” - Hosp. “Guillermo Almenara Irigoyen” y del Hosp. “Alberto Sabogal Sologuren”"}, 
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-700/imagen25.jpg", show: false, texto: "Sala de Operaciones del Instituto Nacional de Enfermedades Neoplásicas (INEN) - Reunión con Licenciadas del Centro Quirúrgico - Capacitación en el manejo de los equipos y mantas Bair Hugger."}
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen18.jpg", show: false, texto: "Capacitación dirigida a las Licenciadas de la Unidad de Cuidados Intensivos Pediátricos del Hospital “Edgardo Rebagliati Martins” sobre Mantenimiento del Acceso Vascular."}, 
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen19.jpg", show: false, texto: "Capacitación dirigida a las Licenciadas de la Unidad de Cuidados Intensivos Pediátricos del Hospital “Edgardo Rebagliati Martins” sobre Mantenimiento del Acceso Vascular."}, 
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen20.jpg", show: false, texto: "Capacitación a las Licenciadas del Hospital “Guillermo Almenara Irigoyen” sobre Mantenimiento del Acceso Vascular."}, 
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen21.jpg", show: false, texto: "Capacitación a las Licenciadas del Hospital “Guillermo Almenara Irigoyen” sobre Mantenimiento del Acceso Vascular."}, 
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen22.jpg", show: false, texto: "Capacitación a las Licenciadas del Hospital “Guillermo Almenara Irigoyen” sobre Mantenimiento del Acceso Vascular."}, 
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen23.jpg", show: false, texto: "Evento - Capacitación en el Hotel Crowne sobre Eficiencia y calidad en la atención hospitalaria y claves para el éxito - Dirigido a las enfermeras del Hosp. “Edgardo Rebagliati Martins” - Hosp. “Guillermo Almenara Irigoyen” y del Hosp. “Alberto Sabogal Sologuren”"}, 
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-600/imagen25.jpg", show: false, texto: "Sala de Operaciones del Instituto Nacional de Enfermedades Neoplásicas (INEN) - Reunión con Licenciadas del Centro Quirúrgico - Capacitación en el manejo de los equipos y mantas Bair Hugger."}
             ],
             cards2: [
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen30.jpg", texto: "Sala de Operaciones del Instituto Nacional de Enfermedades Neoplásicas (INEN)"},
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen31.jpg", texto: "Capacitación a Licenciados de la Unidad de Cuidados Intensivos (UCI) y del Servicio de Hemodiálisis del Hospital Naval."}, 
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen32.jpg", texto: "Capacitación a Licenciados de la Unidad de Cuidados Intensivos (UCI) y del Servicio de Hemodiálisis del Hospital Naval."}
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-800/imagen30.jpg", texto: "Sala de Operaciones del Instituto Nacional de Enfermedades Neoplásicas (INEN)"},
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-800/imagen31.jpg", texto: "Capacitación a Licenciados de la Unidad de Cuidados Intensivos (UCI) y del Servicio de Hemodiálisis del Hospital Naval."}, 
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-800/imagen32.jpg", texto: "Capacitación a Licenciados de la Unidad de Cuidados Intensivos (UCI) y del Servicio de Hemodiálisis del Hospital Naval."}
             ],
             cards3: [
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen26.jpg", texto: "Sala de Operaciones del Instituto Nacional de Enfermedades Neoplásicas (INEN) - Reunión con médicos residentes anestesiólogos"},
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen27.jpg", texto: "Sala de Operaciones del Instituto Nacional de Enfermedades Neoplásicas (INEN) - Reunión con Licenciadas del Centro Quirúrgico"}, 
-                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-900/imagen28.jpg", texto: "Sala de Operaciones del Instituto Nacional de Enfermedades Neoplásicas (INEN) - Reunión con Licenciadas del Centro Quirúrgico"}
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-800/imagen26.jpg", texto: "Sala de Operaciones del Instituto Nacional de Enfermedades Neoplásicas (INEN) - Reunión con médicos residentes anestesiólogos"},
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-800/imagen27.jpg", texto: "Sala de Operaciones del Instituto Nacional de Enfermedades Neoplásicas (INEN) - Reunión con Licenciadas del Centro Quirúrgico"}, 
+                { ima: "https://ik.imagekit.io/ui7iolk9r/tr:w-800/imagen28.jpg", texto: "Sala de Operaciones del Instituto Nacional de Enfermedades Neoplásicas (INEN) - Reunión con Licenciadas del Centro Quirúrgico"}
             ],
 
         }
