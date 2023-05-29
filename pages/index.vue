@@ -1,9 +1,9 @@
 <template>
     <div>
         <br />
-        <div style="position: relative">
+        <div style="position: relative; height: 100%">
             <swiper :modules="[SwiperAutoplay]" :loop="true" :autoplay="{delay: 2500}" style="z-index: -1; height: 100%; width: 100%; min-height: 287px; color: black; position:absolute" v-scrolls>
-                <swiper-slide v-for="card in cards1" :key="card" style="height: 450px; position: relative">
+                <swiper-slide v-for="card in cards1" :key="card" style=" position: relative">
                         <div  style="position: absolute ;top: 0; width: 100%; height: 100%;background-color:rgba(24, 91, 122, 0.28); z-index: 100"></div>
                         <img :src="card.src" :alt="card.alt" style="width:100%; height: 100%; object-fit: cover; filter: brightness(50%); z-index: -1" alt="..." />
                     </swiper-slide>
@@ -12,8 +12,11 @@
                     <br />
                     <br />
                     <div class="row">
-                        <div class="col">
-                            <div class="d-none d-sm-block text-start text-justify" style="width: 50%; left: 0; top:30%; margin-left: 70px; z-index: 1000; color: white">
+                        <div class="col-12 col-sm-8 col-md-6">
+                            <br class="d-none d-sm-none d-md-block" />
+                            <br />
+                            <br />
+                            <div class="text-justify" style="z-index: 1000; color: white">
                                 <h1>SOMOS TU SOPORTE EN LA GESTIÓN DE SERVICIOS PARA LA SALUD…..</h1>
                                 <p>
                                     Nos dedicamos a la comercialización y distribución de 
@@ -23,25 +26,14 @@
                                     NUESTROS PRODUCTOS
                                 </button>
                             </div>
+                            <br />
+                            <br />
+                            <br class="d-none d-sm-none d-md-block" />
                         </div>
                     </div>
                 </div>
-                <div class=" d-block d-sm-none text-start" style="width: 100%; left: 0; top: 50px; z-index: 1000; position: absolute; color: white">
-                    <div class="container">
-                    <h1 style="font-size: 7.7vw" align="center">SOMOS TU SOPORTE EN LA GESTIÓN DE SERVICIOS PARA LA SALUD…..</h1>
-                    <p>
-                        Nos dedicamos a la comercialización y distribución de 
-                        material médico.
-                    </p>
-                    <br />
-                    <button type="button" class="btn btn-primary boton">
-                        NUESTROS PRODUCTOS
-                    </button>
-                </div>
-                </div>
-                <br />
-                <br />
             </div>
+        <br />
         <br />
         <div style="position: relative">
             <div id="circle"></div>
