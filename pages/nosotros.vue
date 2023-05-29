@@ -34,7 +34,7 @@
                         <div align="center">
                             <img
                                 class="d-none d-sm-flex"
-                                style="height: 180px"
+                                style="height: 180px; object-fit: contain"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/3M_wordmark.svg/1200px-3M_wordmark.svg.png"
                                 alt="imagen de 3m"
                             >
@@ -51,7 +51,7 @@
                         <br class="d-flex d-sm-none" />
                         <img
                             class="d-flex d-sm-none"
-                            height="180px"
+                            height="180px; object-fit: contain; width: 100%"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/3M_wordmark.svg/1200px-3M_wordmark.svg.png"
                             alt="imagen de 3m"
                         >
@@ -116,7 +116,7 @@
                     <div cols="12" sm="6" md="6" class="col-12 col-sm-6 col-md-6 d-flex d-sm-none" v-scrolls>
                         <div class="card2" style="width: 100%">
                             <img
-                                style="height:350px; width: 100%"
+                                style="height:350px; width: 100%; object-fit: cover"
                                 src="https://aprendihoy.com/wp-content/uploads/2021/08/imagen-destacada-mision-y-vision-930x620.png"
                                 alt="imagen de vision"
                             >
