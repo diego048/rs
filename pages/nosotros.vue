@@ -96,7 +96,7 @@
                     <div class="col-12 col-sm-6 col-md-6 d-none d-sm-flex" v-scrolls>
                         <div class="card2" style="width: 100%">
                             <img
-                                style="height:350px; width: 100%"
+                                style="height:350px; width: 100%; object-fit: cover"
                                 src="https://aprendihoy.com/wp-content/uploads/2021/08/imagen-destacada-mision-y-vision-930x620.png"
                                 alt="imagen de vision"
                             >
